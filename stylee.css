@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    position: relative;
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 250px;
+}
+
+.hcl>img {
+    width: 180px;
+    height: 42px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .55;
+}
+
+.header > div{
+    position: relative;
+    z-index: 2;
+}
+
+.text {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    font-size: 45px;
+    width: 740px;
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hh{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu {
+  width: 479px;
+}
+
+.menu-list > .menu-list-item a{
+    margin: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu-list > .menu-list-itema a {
+    margin: 15px;  
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 0;
+}
+
+.menu-list > .menu-list-itemb a {
+    margin: 15px;  
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 0;
+}
+
+.main{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 71px;
+}
+
+.bptf {
+    margin-left: 30px;
+}
+
+.spsk {
+    display: flex;
+    list-style: none;
+    margin-bottom: 15px;  
+}
+
+.spsks>li {
+  margin-left: 12px;
+}
+
+.spsks>a {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #b59f5b;
+    margin-bottom: 15px;
+}
+
+.news{
+    max-width: 66.666666%;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 778px;
+    margin-right: 120px;
+}
+
+.oc {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.oct {
+    display: flex;
+    margin-bottom: 60px;
+    margin-bottom: 0;
+}
+
+.oc>img {
+  width: 381px;
+}
+
+.hd {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+
+.tm {
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 57px;
+}
+
+.by {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 57px;
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.tp {
+    margin-top: 54px;
+}
+
+h3>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.rpc {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.rpc::after {
+  content: "__________";
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    color: #b59f5b;  
+}
+
+.hr {
+    border: 1px solid;
+    color: #e1d9bd;
+    width: 66px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.iot {
+    margin-left: 15px;
+}
+
+.io {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.io>img {
+    width: 74px;
+}
+
+.to {
+    color: #888888;
+    font-size: 12px;
+}
+
+.pc {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar{
+    max-width: 33.333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 272px;
+}
+
+.in {
+    margin-top: 60px;
+}
+
+.fo{
+    display: flex;
+
+}
+
+.sh{
+    padding-left:  20px;
+    padding-right:  20px;
+}
+
+.sh:focus{
+    outline: none;
+}
+
+.shr{
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #b59f5b;
+    background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/search.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.shr img{
+    width: 20px;
+}
+
+.ns {
+    margin-top: 62px;
+}
+
+.new {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.new::after {
+  content: "__________";
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    color: #b59f5b; 
+}
+
+.anls {
+  margin-top: 17px;
+}
+
+.subscribe {
+    background-color: #b59f5b;
+    color: white;
+    width: 272px;
+    height: 48px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.milo {
+    height: 49px;
+    width: 272px;
+    margin-top: 16px;
+    padding-left:  20px;
+    padding-right:  20px;
+}
+
+.milo:focus {
+    outline: none;
+}
+
+.tags {
+    margin-top: 62px;
+    width: 274px;
+}
+
+.tgt {
+    text-transform: uppercase;
+    margin-left: 90px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.tgt::after {
+  content: "__________";
+    display: flex;
+    margin-bottom: 20px;
+    color: #b59f5b;
+}
+
+.tag>a {
+    margin-left: 5px;
+}
+
+.tg {
+    text-decoration: none;
+    color: black;
+}
+
+.tgs {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px #eeeeee solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+.categories {
+    margin-top: 60px;
+}
+
+.cg {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.cg::after {
+  content: "__________";
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    color: #b59f5b; 
+}
+
+.all {
+    list-style: none;
+}
+
+sup {
+    color: #b59f5b;
+    margin-left: 4px;
+}
+
+.all>li>a {
+    display: block;
+    width: 272px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.icos {
+    background-color: #f4f7f6;
+    height: 83px;
+    text-align: center;
+}
+
+.twt {
+    width: 25px;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+
+.iconns {
+  display: flex;
+  margin-left: 411px;
+}
+
+.iconns>li {
+  list-style: none;
+  margin: 20px;
+}
+
+.icons-itema {
+  list-style: none;
+}
+
+.i, .f, .g, .h, .z {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.icons-itema>a>.i {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.icons-itemb>a>.f {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.icons-itemc>a>.g {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.icons-itemd>a>.h {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.icons-iteme>a>.z {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  
+}
+
+.social {
+    margin-top: 72px;
+    text-align: center;
+    color: #cfcfcf;
+    font-weight: bold;
+}
+
+.social>a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.vh {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .sidebar{
+        max-width: 100%;
+    }
+    .news{
+        max-width: 100%;
+        order: 1;
+    }
+}
